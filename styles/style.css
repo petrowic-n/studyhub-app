@@ -14,7 +14,6 @@
   --btn-background-color-primary: rgb(62, 106, 225);
   --btn-background-color-secondary: #171a20;
   --btn-background-color-tertiary: rgb(244, 244, 244);
-  
 
   /* sizes */
   --size-xxs: 0.5rem;
@@ -61,4 +60,18 @@ button {
   border: none;
   background: none;
   cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  font-family: var(--font-family);
+  text-decoration: none;
+}
+
+
+section {
+  height: 800px;
 }

@@ -2,12 +2,94 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Remix Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <!-- js -->
     <script defer type="module" src="/src/main.js"></script>
     <title>study hub</title>
   </head>
   <body>
+    <!-- Header -->
+    <header class="header container">
+      <!-- logo -->
+      <a href="#home">
+        <img src="./logo.png" alt="Logo" />
+      </a>
+      <!-- navigation -->
+      <nav>
+        <ul class="header__menu">
+          <li class="header__item">
+            <a class="header__link" href="#home">Home</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#about">About</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#study">Study</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#faq">Faq</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#testimonials">Testimonials</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- menu icon -->
+      <button aria-label="mobile-nav-button" id="menu-btn" type="button">
+        <i class="ri-menu-2-line menu-icon"></i>
+      </button>
+
+      <div class="header__btn">
+        <button class="button-tertiary">Start Timer</button>
+      </div>
+    </header>
+
+    <!-- Moible Navigation -->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li>
+            <a class="mobile-nav__link" href="#home">Home</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#study">Study</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#faq">Faq</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#testimonials">Testimonials</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button id="close-btn" aria-label="mobile-nav-button" type="button">
+        <i class="ri-close-line close-icon"></i>
+      </button>
+    </div>
+    <main>
+      <!-- Hero Section -->
+      <section class="hero" id="home"></section>
+      <!-- About Section -->
+      <section class="about" id="about"></section>
+      <!-- Study Section -->
+      <section class="study" id="study"></section>
+      <!-- Faq Section -->
+      <section class="faq" id="faq"></section>
+      <!-- Testimoinals Section -->
+      <section class="testimonials" id="testimonials"></section>
+    </main>
+    <!-- Footer -->
+    <footer></footer>
   </body>
 </html>

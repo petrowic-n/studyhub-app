@@ -21,8 +21,8 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .section-gap {
@@ -40,12 +40,17 @@
   transition: 0.7s ease-in-out;
 }
 
+/* sticky header */
+.header.sticky {
+  position: fixed;
+}
+
 /* Buttons */
 .button-primary,
 .button-secondary,
 .button-tertiary {
   display: inline-block;
-  width: 258px;
+  width: 200px;
   max-width: auto;
   font-size: var(--size-sm);
   text-transform: capitalize;
