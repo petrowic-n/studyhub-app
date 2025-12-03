@@ -9,6 +9,11 @@
   --color-white: #fff;
   --color-dark: #171a20;
   --color-gray: #5c5e62;
+  --gradient-primary: linear-gradient(
+    to top left,
+    rgb(62, 106, 225),
+    rgb(244, 244, 244)
+  );
 
   /* button */
   --btn-background-color-primary: rgb(62, 106, 225);
@@ -72,6 +77,3 @@ a {
 }
 
 
-section {
-  height: 800px;
-}

@@ -36,6 +36,8 @@ const mobileNav = function () {
     const [entry] = entries;
     // when header is out of view add sticky class
     if (!entry.isIntersecting) header.classList.toggle("sticky");
+    if (header.classList.contains("sticky"))
+      header.style.boxShadow = "0 2px 5px rgba(0, 0, 0, 0.1)";
   };
 
   const observerOptions = {
