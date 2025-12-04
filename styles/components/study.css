@@ -1,15 +1,4 @@
-.section__title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
-.study__description {
-  margin-top: 1rem;
-  font-size: var(--size-sm);
-  color: var(--color-gray);
-  text-align: center;
-}
 
 .study__btn-primary,
 .study__btn-secondary,
@@ -52,7 +41,7 @@
 
 .study__tabs-container {
   padding-block: 3rem;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   border-radius: 4px;
 }
 

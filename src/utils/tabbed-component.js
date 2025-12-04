@@ -10,6 +10,7 @@ const tabbedComponent = () => {
 
     if (!studyBtnClicked) return;
 
+    // Loops through every element and removes class
     tabButtons.forEach((t) => t.classList.remove("study__btn--active"));
     studyBtnClicked.classList.add("study__btn--active");
 
