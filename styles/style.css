@@ -20,6 +20,13 @@
   --btn-background-color-secondary: #171a20;
   --btn-background-color-tertiary: rgb(244, 244, 244);
 
+  --btn-study-bg-color-primary: rgb(110, 144, 236);
+  --btn-study-bg-color-primary-hover: rgb(62, 82, 138);
+  --btn-study-bg-color-secondary: rgb(95, 185, 60);
+  --btn-study-bg-color-secondary-hover: rgb(73, 134, 48);
+  --btn-study-bg-color-tertiary: rgb(165, 42, 42);
+  --btn-study-bg-color-tertiary-hover: rgb(99, 32, 32);
+
   /* sizes */
   --size-xxs: 0.5rem;
   --size-xs: 0.75rem;
@@ -75,5 +82,3 @@ a {
   font-family: var(--font-family);
   text-decoration: none;
 }
-
-

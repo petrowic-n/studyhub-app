@@ -26,7 +26,7 @@
 }
 
 .section-gap {
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 /* Lazy Loading */
@@ -130,6 +130,12 @@ h1 {
   max-width: 380px;
 }
 
+h2 {
+  font-size: var(--size-2xl);
+  font-weight: 600;
+  text-align: center;
+}
+
 /* Animations */
 .section {
   transform: translateY(8rem);
@@ -160,6 +166,10 @@ h1 {
     font-size: var(--size-4xl);
     max-width: 380px;
   }
+
+  h2 {
+    font-size: var(--size-3xl);
+  }
 }
 
 /* md */
@@ -171,6 +181,10 @@ h1 {
     font-size: var(--size-5xl);
     max-width: 500px;
   }
+
+  h2 {
+    font-size: var(--size-4xl);
+  }
 }
 
 /* lg */
@@ -179,13 +193,14 @@ h1 {
     max-width: 100%;
   }
 
-  .section-gap {
-    margin-top: 10rem;
-  }
 
   h1 {
     font-size: var(--size-6xl);
     max-width: 100%;
+  }
+
+  h2 {
+    font-size: var(--size-5xl);
   }
 }
 
