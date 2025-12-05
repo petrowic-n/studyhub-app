@@ -17,6 +17,7 @@
   flex-direction: column;
   justify-content: center;
   margin-bottom: 1rem;
+  cursor: pointer;
 }
 
 .accordion__question {

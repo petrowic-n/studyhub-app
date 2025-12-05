@@ -6,6 +6,7 @@ import "../styles/components/hero.css";
 import "../styles/components/study.css";
 import "../styles/components/about.css";
 import "../styles/components/faq.css";
+import "../styles/components/testimonials.css";
 import "../styles/utils.css";
 
 import mobileNav from "./utils/mobile-nav";
@@ -13,8 +14,10 @@ import siteAnimations from "./utils/animations";
 import tabbedComponent from "./utils/tabbed-component";
 import lazyLoading from "./utils/lazy-loading";
 import accordionComponent from "./utils/accordion";
+import sliderComponent from "./utils/slider";
 mobileNav();
 siteAnimations();
 tabbedComponent();
 lazyLoading();
 accordionComponent();
+sliderComponent();
