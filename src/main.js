@@ -7,6 +7,7 @@ import "../styles/components/study.css";
 import "../styles/components/about.css";
 import "../styles/components/faq.css";
 import "../styles/components/testimonials.css";
+import "../styles/components/footer.css";
 import "../styles/utils.css";
 
 import mobileNav from "./utils/mobile-nav";
