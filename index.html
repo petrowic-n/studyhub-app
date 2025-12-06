@@ -27,10 +27,10 @@
             <a class="header__link" href="#home">Home</a>
           </li>
           <li class="header__item">
-            <a class="header__link" href="#about">About</a>
+            <a class="header__link" href="#study">Study</a>
           </li>
           <li class="header__item">
-            <a class="header__link" href="#study">Study</a>
+            <a class="header__link" href="#about">About</a>
           </li>
           <li class="header__item">
             <a class="header__link" href="#faq">Faq</a>
@@ -47,7 +47,7 @@
       </button>
 
       <div class="header__btn">
-        <button class="button-secondary">Start Timer</button>
+        <button class="button-secondary show-pomodoro-btn">Start Timer</button>
       </div>
     </header>
 
@@ -77,7 +77,7 @@
         <i class="ri-close-line close-icon"></i>
       </button>
     </div>
-    <main>
+    <main class="main">
       <!-- Hero Section -->
       <section class="hero container" id="home">
         <h1>
@@ -89,7 +89,7 @@
           Master your study sessions with the Pomodoro technique stay focused,
           manage your time, and make every minute count.
         </p>
-        <button class="button-primary">Start Studying</button>
+        <button class="button-primary show-pomodoro-btn">Start Studying</button>
       </section>
       <!-- Study Section -->
       <section id="study" class="study container section-gap section">
@@ -352,6 +352,33 @@
         </div>
       </section>
     </main>
+
+    <div class="pomodoro-container">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="pomodoro-durations">
+          <button class="pomodoro-btn pomodoro-display">pomodoro</button>
+          <button class="pomodoro-btn short-break-display">short break</button>
+          <button class="pomodoro-btn long-break-display">long break</button>
+        </div>
+
+        <div class="pomodoro-timer">
+          <span class="pomodoro-time active-timer">50:00</span>
+        </div>
+
+        <div class="pomodoro-clock-actions">
+          <button class="pomodoro-btn-secondary pomodoro-btn--start">
+            start
+          </button>
+          <button class="pomodoro-btn-icon">
+            <i class="ri-reset-right-fill reset-btn"></i>
+          </button>
+          <button class="pomodoro-btn-icon hide-pomodoro">
+            <span>back to site</span>
+          </button>
+        </div>
+      </div>
+    </div>
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
