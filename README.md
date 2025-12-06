@@ -23,6 +23,9 @@ The timer is interactive, fully functional, and includes automatic session switc
 
 This project is open source and free to use for educational purposes.
 
+
+https://studyhub-app.netlify.app
+
 ## Website Screenshot
 <img width="1621" height="888" alt="study-website" src="https://github.com/user-attachments/assets/772599da-1dc1-4aa7-9e9a-697e49a006cf" />
 
